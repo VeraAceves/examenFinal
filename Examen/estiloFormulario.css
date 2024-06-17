@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(lenguado.webp);
+    background-size: cover;
+}
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(14, 14, 141);
+}
+.navBar {
+    
+    background-color: rgb(221, 235, 252);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+.navLink{
+    padding: 2em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: black;
+}
+.navLink:hover {
+    background-color: white;
+}
+main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.titulo {
+    color: rgb(14, 14, 141);
+    text-align: center;
+    text-transform: uppercase;
+}
+.seccionFormulario {
+    width: 50%;
+    background-color: rgba(133, 164, 248, 0.671);
+    border: 1px solid white;
+    justify-content: center;
+}
+fieldset {
+    border: none;
+    display: flex;
+    padding: 2em;
+    text-align: right;
+}
+legend {
+    font-weight: bold;
+    text-align: right;
+    float: left;
+    width: 10em;
+}    
+
+.flexClass {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+input:not(#botonEnviar), select {
+    border: none;
+    border-bottom: solid 2px black;
+}
+label {
+    font-size: smaller;
+    color: black;
+    margin-bottom: 1em;
+}
+
+
+#cp {
+    width: 7em;
+}
+.caja1, .caja2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.caja3 {
+    display: flex;
+    flex-direction: row;
+    
+}
+select {
+    background-color: white;
+    justify-content: left   ;
+}
+.submit {
+    margin: 2em;
+    float: right;
+}
+#botonEnviar {
+    font-size: large;
+    color: rgb(56, 54, 54);
+}
+.abajo {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}

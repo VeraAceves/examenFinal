@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Examen</title>
+        <link rel="stylesheet" href="estiloFormulario.css">
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+    </head>
+    <body>
+        <header class="cabecera">
+            <div class="marca">
+                <h1><a href="index.html" class="navLink">Congelados MariPili</a></h1>
+            </div>
+        </header>
+        <nav class="navBar">
+            <ul class="menu">
+                <li><a href="index.html" class="navLink">Portada</a></li>
+                <li><a href="catalogo.html" class="navLink">Catálogo</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class="titulo">Haz aquí tu pedido</h2>
+            <section class="seccionFormulario">
+                <form action="formulario.php" method="get">
+            
+                    <fieldset class="nameClass">
+                        <legend>Nombre y apellidos</legend>
+        
+                        <div class="flexClass">
+                            <input type="text" id="name" name="name">
+                            <label for="name">Nombre</label>
+        
+                            <input type="text" id="firstName" name="firstName">
+                            <label for="firstName">Primer apellido</label>
+                        
+                            <input type="text" name="secondName" id="secondName">
+                            <label for="secondName">Segundo apellido</label>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset class="adressClass">
+                        <legend>Dirección</legend>
+        
+                        <div class="flexClass">
+                            <input type="text" name="adress" id="adress">
+                            <label for="adress">Calle, número, piso, puerta</label>
+                            <div class="caja3">
+                                <div class="caja1">
+                                    <input type="text" name="cp" id="cp">
+                                    <label for="cp">Código postal</label>
+                                    <select name="provincia" id="provincia">
+                                        <option value="1"></option>
+                                    </select>
+                                    <label for="provincia">Provincia</label>
+                                     
+                                </div>
+                                
+                                <div class="caja2">
+                                    <input type="text" name="municipio" id="municipio">
+                                    <label for="municipio">Municipio</label>
+                
+                                    <select name="pais" id="pais">
+                                        <option value="1">España</option>
+                                        <option value="2">Portugal</option>
+                                    </select>
+                                    <label for="pais">País</label>
+                                </div>
+                            </div>
+                                                
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset class="mailClass">
+                        <legend>Email</legend>
+        
+                        <div class="flexClass">
+                            <input type="email" id="mail" name="mail">
+                        </div>
+                    </fieldset>
+        
+                    <fieldset class="telClass">
+                        <legend>Teléfono</legend>
+        
+                        <div class="flex">
+                            <input type="tel" id="telFijo" name="telFijo">
+                            <label for="telFijo">Fijo</label>
+        
+                            <input type="tel" id="telMovil" name="telMovil">
+                            <label for="telMovil">Móvil</label>
+                        </div>
+                    </fieldset>
+        
+
+                    <fieldset class="pedido">
+                        <legend>Su pedido</legend>
+                        <div class="areaPedido">
+                            <textarea name="escribirPedido" id="escribirPedido" cols="30" rows="10"></textarea>
+                            <label for="descPedido">Por favor, escriba aquí su pedido</label>
+                        </div>
+                    </fieldset>
+
+                    <div class="submit">
+                        <input type="submit" value="Registrarse" id="botonEnviar" name="botonEnviar">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="abajo">
+                <p>Examen LMSXI Verónica Aceves Gil</p>
+            </div>
+        </footer>
+    </body>
+</html>

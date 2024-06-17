@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(lenguado.webp);
+    background-size: cover;
+}
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(14, 14, 141);
+}
+.navBar {
+    
+    background-color: rgb(221, 235, 252);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+.navLink{
+    padding: 2em;
+    margin-right: 1em;
+    text-decoration: none;
+    color: black;
+}
+.navLink:hover {
+    background-color: white;
+}
+.titulo {
+    color: rgb(14, 14, 141);
+    text-align: center;
+    text-transform: uppercase;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista, .tabla {
+    width: 40%;
+    background-color: rgba(127, 187, 255, 0.582);
+    border: 1px solid white;
+    margin: 1em;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.listaProductos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listaProductos dd {
+    font-style: italic;
+}
+.tituloLista, .tituloTabla {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.tabla {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tabla td {
+    font-style: italic;
+}
+.abajo {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}

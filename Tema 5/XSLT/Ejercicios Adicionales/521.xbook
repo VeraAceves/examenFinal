@@ -1,0 +1,1 @@
+[{"kind":2,"language":"xpath","value":"/formula1/pilotos/piloto[@id=/formula1/equipos/equipo[nombre='Mercedes-AMG Petronas F1 Team']/temporada[año='2020']/piloto/@id]/nombre/string()"},{"kind":2,"language":"xpath","value":"/formula1/pilotos/piloto[@id=/formula1/equipos/equipo[motorista/@id=/formula1/motorista[año_fundacion > 1947]/@id]/temporada/piloto/@id]/nombre/string()"}]
